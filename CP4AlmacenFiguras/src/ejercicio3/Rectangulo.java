@@ -2,7 +2,7 @@ package ejercicio3;
 
 public class Rectangulo {
 
-	//Atributos
+	// Atributos
 	private float base;
 	private float altura;
 	private float area;
@@ -64,5 +64,4 @@ public class Rectangulo {
 		return "Rectangulo: " + color + " / base:" + base + " / altura:" + "/ area:" + area;
 	}
 
-	
 }

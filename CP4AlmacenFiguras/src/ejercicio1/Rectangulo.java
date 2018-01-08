@@ -2,8 +2,8 @@ package ejercicio1;
 
 public class Rectangulo {
 
-	//Atributos
-	float base,altura,area;
+	// Atributos
+	float base, altura, area;
 	String color;
 
 	public Rectangulo() {

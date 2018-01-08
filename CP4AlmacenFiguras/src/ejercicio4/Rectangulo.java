@@ -2,7 +2,7 @@ package ejercicio4;
 
 public class Rectangulo {
 
-	//Atributos
+	// Atributos
 	private float base;
 	private float altura;
 	private float area;
@@ -59,5 +59,4 @@ public class Rectangulo {
 		this.color = color;
 	}
 
-	
 }

@@ -7,19 +7,19 @@ public class Circulo {
 	private String color;
 
 	public Circulo() {
-			this.radio = 1;
-			this.area = calcularArea();
-			color = "rojo";
-		}
+		this.radio = 1;
+		this.area = calcularArea();
+		color = "rojo";
+	}
 
-	public Circulo(float radio) {			
-			this.radio = radio;
-			this.area = calcularArea();
-			color = "rojo";
-		}
+	public Circulo(float radio) {
+		this.radio = radio;
+		this.area = calcularArea();
+		color = "rojo";
+	}
 
 	private float calcularArea() {
-		float resultado = (float) (Math.PI * radio*radio);
+		float resultado = (float) (Math.PI * radio * radio);
 		return resultado;
 	}
 
@@ -51,5 +51,5 @@ public class Circulo {
 	public String toString() {
 		return "Circulo: " + color + "/ radio:" + radio + "/ area:" + area;
 	}
-		
+
 }

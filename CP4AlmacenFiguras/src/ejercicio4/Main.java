@@ -66,10 +66,10 @@ public class Main {
 		return rectangulo.getArea() > triangulo.getArea();
 	}
 
-	public static boolean compararRectanguloConLimite(Rectangulo rectangulo, int limite) {		
+	public static boolean compararRectanguloConLimite(Rectangulo rectangulo, int limite) {
 		System.out.println("Variable limite fuera del metodo = " + limite);
 		limite = limite + 2;
-		System.out.println("Variable limite en el metodo = " + limite);		
+		System.out.println("Variable limite en el metodo = " + limite);
 		return rectangulo.getArea() > limite;
 	}
 }
